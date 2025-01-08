@@ -1,0 +1,6 @@
+numpy
+opencv-python
+flask
+keras==3.7.0
+tensorflow==2.18.0
+Pillow
