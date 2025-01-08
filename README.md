@@ -10,7 +10,7 @@ This project is a web application designed to detect pneumonia from chest X-ray 
 
 ## Project Structure
 - **app.py**: The main Flask application script that handles image uploads and predictions.
-- **model_weights/vgg19_model_01.h5**: Pre-trained model weights for the VGG19 network.
+- **model_weights/vgg19_model_01.h5**: Trained model weights for the Deep Learning model.
 - **templates/index.html**: The front-end template for the web application.
 - **uploads/**: Directory for storing uploaded images.
 - **Pneumonia_detection_DL.ipynb**: Jupyter notebook detailing the data preprocessing, model training, and evaluation.
@@ -41,11 +41,14 @@ This project is a web application designed to detect pneumonia from chest X-ray 
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the Flask app:
+4. Download the vgg19_model_01.h5 file (and add it to the repository) using this link:
+   [download](https://drive.google.com/file/d/1cPGFhyGadt2rOadbpnpPad861zeAi0rq/view?usp=sharing)
+   
+5. Run the Flask app:
    ```bash
    python app.py
    ```
-5. Access the application at `http://127.0.0.1:5000/`.
+6. Access the application at `http://127.0.0.1:5000/`.
 
 ## Usage
 1. Launch the web application.
